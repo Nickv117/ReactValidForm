@@ -1,0 +1,28 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.succesful {
+  color: whitesmoke;
+  font-family: sans-serif;
+  margin-left: 415px;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin-top: -8px;
+  font-size: 40px;
+}
+
+.background {
+  background-image: url(https://media.giphy.com/media/XR9Dp54ZC4dji/giphy.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 675px;
+  margin-left: -8px;
+}

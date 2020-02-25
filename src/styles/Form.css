@@ -1,0 +1,55 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  background-color: rgb(35, 45, 45);
+}
+
+.error {
+  color: red;
+}
+
+.container {
+  background-color: darkgrey;
+  width: 650px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+button {
+  display: block;
+  margin-top: 10px;
+  width: 75px;
+  height: 35px;
+  margin-left: 565px;
+  border: 1px solid darkgrey;
+  border-radius: 25px;
+}
+
+input {
+  width: 420px;
+  height: 35px;
+  margin-left: 45px;
+  margin-bottom: 5px;
+  background-color: white;
+}
+input::placeholder {
+  font-size: 10px;
+  color: darkgrey;
+}
+
+label {
+  display: block;
+  color: white;
+  width: 100px;
+  margin: 20px;
+  margin-left: 55px;
+  font-size: 25px;
+  padding-top: 10px;
+}
